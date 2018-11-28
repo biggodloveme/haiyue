@@ -1,0 +1,42 @@
+/*全局样式*/
+body {
+    font: 12px tahoma, arial, sans-serif;
+    _font: 12px '宋体', tahoma, arial, sans-serif;
+    color: #000;
+    background: #fff;
+    }
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,ul{margin: 0;padding: 0}
+ul,ol{list-style: none}
+a { text-decoration: none}
+a:hover { text-decoration: none}
+/*头部*/
+header{width: 100%;height: 133px}
+header .top_wrap{width:100%;height: 93px;background: #333333}
+header .top_wrap_in{width:1200px;height: 85px;background: #333333;margin: 0 auto;}
+header .top_wrap_in .top_nav{width: 400px;float: left;}
+header .top_wrap_in .top_nav li{margin: 0 auto;display: inline-block;height: 40px;line-height:40px;position: relative;padding: 0 10px 0 7px;}
+
+header .top_wrap_in .top_nav li a{color: #d7d7d7}
+header .top_wrap_in .top_nav li a:hover{color: #fff}
+header .top_wrap_in .top_nav li:nth-child(2):hover{background: #fff;}
+header .top_wrap_in .top_nav li:nth-child(2):hover a{color: red;}
+header .top_center{display: block;width: 212px;height: 32px;position: absolute;top:8px;left: 50%;margin: 0 0 0 -106px;background:url(../img/spriter2016.png) no-repeat 0 0}
+header .top_right input{display: block;width: 262px;height: 26px;position:absolute;top:8;left:50%;margin: 10px 0 0 336px;border: none;border: 1px solid #787878;color: #787878}
+header .banner_top {position: absolute;left: 50%;top:45px;margin: 0 0 0 -240px;}
+header .banner_top li{float:left;padding: 15px;margin-right: 10px;}
+header .banner_top li:hover {border-bottom: 2px solid #D7D7D7;}
+header .banner_top li a{color: #d7d7d7}
+header .banner_top li a:hover{color: #fff}
+header .bottom_wrap{width:100%;height: 40px;background: #f7f7f7;overflow: hidden;}
+header .bottom_wrap_in{width:1200px;height: 40px;background: #f7f7f7;margin:0 auto}
+header .bottom_wrap_in ul{position: absolute;left: 50%;margin: 0 0 0 -337px;}
+header .bottom_wrap_in ul li{float: left;width: 72px;height: 38px;line-height: 38px;border: 1px solid #f7f7f7;text-align: center;}
+header .bottom_wrap_in ul li a{color: #000}
+header .bottom_wrap_in ul li:hover{background: #fff;border: 1px solid #D7D7D7;}
+
+/*中间*/
+section .mainShow{width: 1200px;height:630px;padding-top: 22px;margin: 0 auto;position: relative;}
+section .mainShow ul{position: absolute;top: 598px;left: 50%;margin: 0 0 0 -20px;}
+section .mainShow ul li{float: left;width: 16px;height: 16px;border-radius: 8px;background: #D7D7D7;text-indent: -99999;margin: 0 5px;}
+section .mainShow ul li:hover{background: #787878;}
+section .mainNav a{display: inline-block;width: 250px;height: 86px;margin: 0 60px 0 0;}
