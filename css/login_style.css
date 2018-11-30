@@ -1,0 +1,51 @@
+/*全局样式*/
+body {
+    font: 12px tahoma, arial, sans-serif;
+    _font: 12px '宋体', tahoma, arial, sans-serif;
+    color: #000;
+    background: #fff;
+    }
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,ul,input{margin: 0;padding: 0}
+
+ul,ol{list-style: none}
+a { text-decoration: none}
+a:hover { text-decoration: none}
+/*head*/
+.top{height: 60px;background: url(../img/logo_mini.png) no-repeat}
+/*登录注册*/
+.mid{height: 700px;background: #f7f2ec;position: relative;}
+.mid_in_top{height: 140px;width: 100%;}
+.mid_in_bottom{height: 560px;width:1200px;background:url(../img/login_bg.jpg) no-repeat ;margin: 0 auto;}
+.login_box{background: #fff;width: 420px;height: 560px;position: absolute;top: 0;right: 30px;z-index: 10;border: 1px solid #d8d8d8;box-shadow: 0 0 20px #c8c8c8;}
+.login_box .login_top{height: 53px;width: 420px;}
+.login_box .login_top li{line-height: 51px;text-align: center;width: 210px;float: left;font-size: 16px;color: #afafaf;}
+.login_box .login_top li:hover{color: #464646;}
+.login_box .login_top li:hover{border-bottom: 2px solid #464646;}
+.login_box .login_show{display:block;width: 304px;height: 240px;margin: 10px auto;}
+.login_box .login_show input{display:inline-block;height: 34px;border:0;border: 1px solid #d8d8d8;}
+.login_box .login_show #uname,#uname_regist{width: 300px;margin-top: 25px;}
+
+.login_box .login_show #uiphone{width: 185px;margin-top: 16px;}
+.login_box .login_show #upwd{width: 300px;margin-top: 16px;}
+.login_box .login_show #randNum{background: #f7f7f9;position: absolute;left: 291px;top: 140px;}
+.login_box .login_show p{width:300px;margin: 24px 0 22px 0;display: flex;justify-content: flex-end;}
+.login_box .login_show p a{display:inline-block;line-height:12px;padding: 0 4px;border-right: 1px solid #000000;height: 12px;}
+.login_box .login_show p a:nth-child(2){border-right: none;}
+.login_box .login_show #btn{width: 300px;height: 40px;background: #d2041f;border-radius: 20px;}
+.login_box span{display:block;width:300px;height:14px;text-align:center;background: url(../img/login_sprite_login.png) no-repeat -96px -193px; margin: 30px auto;}
+.login_box span p{display: inline-block;width: 120px;margin: 0 auto;background: #fff;}
+.login_box .outweb{height: 74px;width: 302px;margin: 0 auto;display: flex;justify-content: space-around;}
+.login_box .outweb li{width: 30px;height: 30px;border-radius: 15px;background: url(../img/login_sprite_login.png) no-repeat;}
+.login_box .outweb li:nth-child(0){background-position: 0px 0px;}
+.login_box .outweb li:nth-child(1){background-position: -30px 0px;}
+.login_box .outweb li:nth-child(2){background-position: -60px 0px;}
+.login_box .outweb li:nth-child(3){background-position: -90px 0px;}
+.login_box .outweb li:nth-child(4){background-position: -120px 0px;}
+.login_box p{text-align: center;}
+/*end*/
+.foot{height: 110px;}
+.foot a{padding: 0 11px;border-right: 1px solid #000000;display:inline-block;height:12px;margin: 32px 0 20px 0;}
+.foot a:last-child{border: 0;}
+.foot_top{display: flex;justify-content: center;height: 58px;}
+.foot p{height: 58px;margin: 0 auto;text-align: center;}
+
