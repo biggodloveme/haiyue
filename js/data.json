@@ -1,28 +1,178 @@
 [
 	{
-		"id" : "banner01",
+		"id" : "f01",
 		"name" : "走秀1",
-		"src" : "banner1.jpg"
+		"src" : "1.png"
 	},
 	{
-		"id" : "banner02",
+		"id" : "f02",
 		"name" : "走秀2",
-		"src" : "banner2.jpg"
+		"src" : "2.png"
 	},
 	{
-		"id" : "banner03",
+		"id" : "f03",
 		"name" : "走秀3",
-		"src" : "banner3.jpg"
+		"src" : "3.png"
 	},
 	{
-		"id" : "banner04",
+		"id" : "f04",
 		"name" : "走秀4",
-		"src" : "banner4.jpg"
+		"src" : "4.png"
 	},
 	{
-		"id" : "banner05",
+		"id" : "f05",
 		"name" : "走秀5",
-		"src" : "banner5.jpg"
-	}	
+		"src" : "5.png"
+	},
+	{
+		"id" : "f06",
+		"name" : "走秀6",
+		"src" : "6.png"
+	},
+	{
+		"id" : "f07",
+		"name" : "走秀7",
+		"src" : "7.png"
+	},
+	{
+		"id" : "f08",
+		"name" : "走秀8",
+		"src" : "8.png"
+	},
+	{
+		"id" : "f09",
+		"name" : "走秀9",
+		"src" : "9.png"
+	},
+	{
+		"id" : "f10",
+		"name" : "走秀10",
+		"src" : "10.png"
+	},
+	{
+		"id" : "f11",
+		"name" : "走秀11",
+		"src" : "11.png"
+	},
+	{
+		"id" : "f12",
+		"name" : "走秀12",
+		"src" : "12.png"
+	},
+	{
+		"id" : "f13",
+		"name" : "走秀13",
+		"src" : "13.png"
+	},
+	{
+		"id" : "f14",
+		"name" : "走秀14",
+		"src" : "14.png"
+	},
+	{
+		"id" : "f15",
+		"name" : "走秀15",
+		"src" : "15.png"
+	},
+	{
+		"id" : "f16",
+		"name" : "走秀16",
+		"src" : "16.png"
+	},
+	{
+		"id" : "f17",
+		"name" : "走秀17",
+		"src" : "17.png"
+	},
+	{
+		"id" : "f18",
+		"name" : "走秀18",
+		"src" : "18.png"
+	},
+	{
+		"id" : "f01",
+		"name" : "走秀1",
+		"src" : "1.jpg"
+	},
+	{
+		"id" : "f02",
+		"name" : "走秀2",
+		"src" : "2.jpg"
+	},
+	{
+		"id" : "f03",
+		"name" : "走秀3",
+		"src" : "3.jpg"
+	},
+	{
+		"id" : "f04",
+		"name" : "走秀4",
+		"src" : "4.jpg"
+	},
+	{
+		"id" : "f05",
+		"name" : "走秀5",
+		"src" : "5.jpg"
+	},
+	{
+		"id" : "f06",
+		"name" : "走秀6",
+		"src" : "6.jpg"
+	},
+	{
+		"id" : "f07",
+		"name" : "走秀7",
+		"src" : "7.jpg"
+	},
+	{
+		"id" : "f08",
+		"name" : "走秀8",
+		"src" : "8.jpg"
+	},
+	{
+		"id" : "f09",
+		"name" : "走秀9",
+		"src" : "9.jpg"
+	},
+	{
+		"id" : "f10",
+		"name" : "走秀10",
+		"src" : "10.jpg"
+	},
+	{
+		"id" : "f11",
+		"name" : "走秀11",
+		"src" : "11.jpg"
+	},
+	{
+		"id" : "f12",
+		"name" : "走秀12",
+		"src" : "12.jpg"
+	},
+	{
+		"id" : "f13",
+		"name" : "走秀13",
+		"src" : "13.jpg"
+	},
+	{
+		"id" : "f14",
+		"name" : "走秀14",
+		"src" : "14.jpg"
+	},
+	{
+		"id" : "f15",
+		"name" : "走秀15",
+		"src" : "15.jpg"
+	},
+	{
+		"id" : "f16",
+		"name" : "走秀16",
+		"src" : "16.jpg"
+	},
+	{
+		"src" : "beats_01.jpg"
+	},
+	{
+		"src" : "beats_02.jpg"
+	}
 ]
-	

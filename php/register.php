@@ -4,4 +4,5 @@
 	$username_regist = $_POST["$uname"];
 	$upwd2 = $_POST["$uiphone"];
 	echo "用户名：$username,密码：$upwd";
+	ench "<script>location.href='../html/login.html'</script>";
 ?>
