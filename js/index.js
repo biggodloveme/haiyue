@@ -3,7 +3,8 @@ var timer = null,
 	index = -1,
 	$ol = $("ol"),
 	$olist = $("ol li"),
-	$ulist = $("ul li"),
+	$ul = $(".mainShow>ul"),
+	$ulist = $(".mainShow>ul li"),
 	$recommend = $(".recommend_good"),
 	$findGood = $(".findGood"),
 	$hotTip = $(".hotTip");
@@ -16,30 +17,29 @@ function autoPlay() {
 	var flag = true;
 	if(index == $olist.size() - 1) {
 		index = -1;
-		flag = false;
-	}
-	if(flag == false) {
 		$ol.css("left", "0px");
 	}
+	
 	var ol = -1200 * (index + 1) + "px";
 	
 	$ol.animate({
 		left: ol
 	}, 1500);
-	$ulist.eq(index).addClass("ulist");
-}
-
-$ulist.mouseenter(function() {
-	clearInterval(timer);
-	if($(this).index() == $ulist.size() - 1) {
-		index = $(this).index() + 1;
-	} else {
-		index = $(this).index() - 2;
+	if(index==4){
+		$ulist.eq(0).css("background","#000").siblings().css("background","#D7D7D7");
+	}else{
+		$ulist.eq(index).css("background","#000").siblings().css("background","#D7D7D7");
 	}
 	
+	console.log($ulist.eq(index));
+}
+
+$ul.on("mouseenter","li",function(){
+	clearInterval(timer);
+	index = $(this).index()-1;
 	autoPlay();
-}).mouseleave(function() {
-	timer = setInterval(autoPlay, 2000);
+}).on("mouseleave","li",function(){
+	timer = setInterval(autoPlay());
 })
 
 //ajax加载商品
@@ -82,4 +82,13 @@ $(window).scroll(function(){
 	}
 });
 	
+})
+
+//跳转到放大镜页面
+
+$findGood.on("click","li",function(){
+	var val = JSON.stringify($(this).find("img").attr("src"));
+	$.cookie("key",val);
+	
+	$(location).prop('href','http://127.0.0.1/haiyue/html/%20magnifying_glass%20.html');
 })

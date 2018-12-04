@@ -57,7 +57,7 @@ section .mainShow ol li {float: left;}
 
 section .mainShow ul{position: absolute;top: 598px;left: 50%;margin: 0 0 0 -20px;z-index: 10;}
 section .mainShow ul li{float: left;width: 16px;height: 16px;border-radius: 8px;background: #D7D7D7;margin: 0 5px;text-indent:-9990px;}
-.ulist{background: #787878;}
+.uchange{background: red;}
 /*section .mainShow ul li:hover{background: #787878;}*/
 section .mainNav{width: 1200px;height: 54px;margin: 0 auto;}
 section .mainNav a{display: inline-block;width: 296px;height: 86px;}
